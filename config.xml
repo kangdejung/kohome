@@ -15,8 +15,8 @@
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"  />
 	
-	<allow-navigation href="kohome.dungzi.com/*" />
+	<allow-navigation href="http://kohome.dungzi.com/*" />
 	<icon src="icon.png" />
 	<content src="index.html" />
-	<access origin="kohome.dungzi.com/*" />
+	<access origin="*" />
 </widget>
